@@ -1,0 +1,35 @@
+.card {
+	margin: 20px;
+	width: 250px;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 10px;
+	border-color: #af3039;
+	box-shadow: 1px 4px 20px 0px #979797;
+	background-color: #f1d2d4;
+}
+
+.card .card__city {
+	margin-top: 5px;
+	text-align: center;
+	font-size: 1.4em;
+	font-weight: 700;
+	color: rgba(0, 0, 0, 0.65);
+}
+
+.card .card__temp {
+	margin: 10px 0;
+	text-align: center;
+	font-size: 5em;
+	color: rgba(175, 48, 57, 0.7);
+
+}
+
+.card .card__weather-desc {
+	margin-left: 4px;
+}
+
+.card .card__footer {
+	display: flex;
+	align-items: center;
+}
